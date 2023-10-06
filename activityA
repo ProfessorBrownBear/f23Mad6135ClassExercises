@@ -1,12 +1,17 @@
 var a = 10;
 let b = 20;
 
-{
-    const c = 'DOG';
-    const d = "CAT";
-}
-console.log(a + " " + b + " " + c + " " + d);
+{   const c = 'DOG';
+            const d = "CAT"; 
+        }
+
 {
     let z = 100;
     let y = 200;
 }
+function somefunction() {
+    let x = 1000;
+    let y = 2000;
+    return x+y;
+}
+console.log(somefunction());``
