@@ -1,0 +1,12 @@
+var a = 10;
+let b = 20;
+
+{
+    const c = 'DOG';
+    const d = "CAT";
+}
+console.log(a + " " + b + " " + c + " " + d);
+{
+    let z = 100;
+    let y = 200;
+}
